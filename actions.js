@@ -32,7 +32,7 @@ var fn = {
 			logToDom('didStartMonitoringForRegion:' + JSON.stringify(pluginResult));
 		};
 
-		delegate.didRangeBeaconsInRegion: function (pluginResult) {
+		delegate.didRangeBeaconsInRegion = function (pluginResult) {
 			logToDom('[DOM] didRangeBeaconsInRegion: ' + JSON.stringify(pluginResult));
 		};
 
