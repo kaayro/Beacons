@@ -38,7 +38,7 @@ var fn = {
 		};
 
 		var uuid = '23A01AF0-232A-4518-9C0E-323FB773F5EF';
-		var identifier = 'beaconOnTheMacBooksShelf';
+		var identifier = 'prue';
 		var minor = 1000;
 		var major = 5;
 		var beaconRegion = new cordova.plugins.locationManager.BeaconRegion(identifier, uuid, major, minor);
