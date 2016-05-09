@@ -22,5 +22,5 @@
         
         <icon src="icon.png" />
         
-		<gap:plugin name="eu.mobilion.ibeacon" spec="0.0.0" source="pgb" />
+		<gap:plugin name="com.unarin.cordova.beacon" spec="3.2.1" source="pgb" />
     </widget>
