@@ -36,7 +36,7 @@ var fn = {
 			logToDom('[DOM] didRangeBeaconsInRegion: ' + JSON.stringify(pluginResult));
 		};
 
-		var uuid = 'DA5336AE-2042-453A-A57F-F80DD34DFCD9';
+		var uuid = '23A01AF0-232A-4518-9C0E-323FB773F5EF';
 		var identifier = 'beaconOnTheMacBooksShelf';
 		var minor = 1000;
 		var major = 5;
@@ -86,7 +86,7 @@ var fn = {
 
         });
 
-        var uuid = 'DA5336AE-2042-453A-A57F-F80DD34DFCD9';
+        var uuid = '23A01AF0-232A-4518-9C0E-323FB773F5EF';
         var identifier = 'beaconOnTheMacBooksShelf';
         var minor = 1000;
         var major = 5;
