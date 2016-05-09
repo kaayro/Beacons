@@ -1,4 +1,7 @@
 var fn = {
+	ready: function(){
+		document.addEventListener("deviceready", fn.init, false);
+	},
 	init: function(){
 		var logToDom = function (message) {
 			var e = document.createElement('label');
@@ -50,4 +53,4 @@ var fn = {
 			.done();
 	}
 };
-window.addEventListener("load",fn.init,false);
+window.addEventListener("load",fn.ready,false);
