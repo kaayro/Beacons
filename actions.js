@@ -2,6 +2,9 @@ var fn = {
 	ready: function(){
 		document.addEventListener("deviceready", fn.init, false);
 	},
+	init: function(){
+		fn.startMonitoringASingleiBeacon();
+	},
 	startMonitoringASingleiBeacon: function(){
 		var logToDom = function (message) {
 			var e = document.createElement('label');
@@ -52,7 +55,7 @@ var fn = {
 			.fail(console.error)
 			.done();
 	},
-	init: function(){
+	otro: function(){
 		var logToDom = function (message) {
             var e = document.createElement('label');
             e.innerText = message;
